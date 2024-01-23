@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #000;
+    color: #f00;
     text-decoration: none;
 }
 
@@ -85,18 +85,21 @@ img {
 
 .button {
     color: #fff;
+    background: #f00;
     display: inline-block;
-    text-transform: uppercase;
-    border: 2px solid;
+    text-transform: unset;
+    text-decoration: none;
+    border: 2.5px solid;
+    border-radius: 7.5px;
     padding: 10px 20px;
 }
 
 .button:hover {
-    color: #000;
+    color: #fff;
 }
 
 .bg-a {
-    background-color: #000;
+    background-color: #f00;
 }
 
 .section-padding {
@@ -120,11 +123,11 @@ img {
 }
 
 .bg-primari {
-    background-color: #000 !important;
+    background-color: #ff0000 !important;
 }
 
 .bg-secondary {
-    background-color: #ffc900 !important;
+    background-color: #ff0000 !important;
 }
 
 button:focus {
@@ -140,7 +143,7 @@ button:focus {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #fa0375;
     z-index: 99999;
 }
 
@@ -156,7 +159,7 @@ button:focus {
 
 .cube1,
 .cube2 {
-    background-color: #ffc900;
+    background-color: #f00;
     width: 25px;
     height: 25px;
     position: absolute;
@@ -237,13 +240,13 @@ button:focus {
     bottom: 0;
     width: 50px;
     height: 5px;
-    background-color: #000;
+    background-color: #f00;
 }
 
 .section-title h2:before {
     left: auto;
     right: 50%;
-    background-color: #ffc900
+    background-color: #f00;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -254,7 +257,7 @@ button:focus {
     transition: .3s;
 }
 .navbar-brand.logo img {
-    max-height: 40px;
+    max-height: 100px;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -264,7 +267,7 @@ button:focus {
 
 .navbar-expand-lg .navbar-nav .nav-link:hover,
 .navbar-expand-lg .navbar-nav .nav-link.active {
-    color: #ffc900;
+    color: #f00;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -289,7 +292,7 @@ button:focus {
     bottom: 0;
     width: 50%;
     height: 100%;
-    background-color: #ffc900;
+    background-color: #f00;
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
     z-index: 2;
@@ -318,7 +321,7 @@ button:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #f00;
     opacity: .3;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
     z-index: -1;
@@ -358,16 +361,17 @@ button:focus {
 
 .single-featured-item-wrap h3 a {
     text-align: center;
+    text-decoration: none;
     text-transform: uppercase;
     padding: 15px;
-    color: #000;
+    color: #f00;
     display: block;
     position: relative;
     z-index: 1;
 }
 
 .single-featured-item-wrap:hover a {
-    color: #ffc900
+    color: #fff;
 }
 
 .single-featured-item-wrap:hover a:after {
@@ -379,7 +383,7 @@ button:focus {
     content: '';
     width: 100%;
     height: 0;
-    background-color: #000;
+    background-color: #f00;
     z-index: -1;
     left: 0;
     top: 0;
@@ -391,7 +395,7 @@ button:focus {
     font-size: 60px;
     position: absolute;
     top: 0;
-    color: #ffc900;
+    color: #ff0000;
     opacity: .5;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
 }
@@ -402,12 +406,12 @@ button:focus {
 ::::::::::::::::::::::::::::::::::::*/
 
 .about-bg {
-    height: 100%;
-    min-height: 400px;
+    height: 100vh;
+    min-height: 250px;
     position: relative;
     background-size: cover;
     background-position: center;
-    background-color: #ffc900;
+    background-color: #f00;
 }
 
 .social-aria a {
@@ -439,7 +443,7 @@ button:focus {
 .social-aria:after {
     position: absolute;
     content: '';
-    background-color: #000;
+    background-color: #f00;
     width: 100%;
     height: 100%;
     bottom: 0;
@@ -450,7 +454,7 @@ button:focus {
 }
 
 .about-content h2 span {
-    color: #ffc900;
+    color: #f00;
     font-size: 100%;
 }
 
@@ -487,7 +491,7 @@ button:focus {
     width: 110px;
     font-size: 14px;
     color: #ffffff;
-    background: #000;
+    background: #f00;
 }
 
 .skillbar-title span {
@@ -500,7 +504,7 @@ button:focus {
 .skillbar-bar {
     height: 35px;
     width: 0px;
-    background-color: #ffc900;
+    background-color: #f00;
 }
 
 .skill-bar-percent {
@@ -524,7 +528,7 @@ button:focus {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #000;
+    background-color: #f00;
     z-index: -1;
     opacity: .8;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
@@ -532,7 +536,8 @@ button:focus {
 
 
 .single-fun-fact {
-    border: 1px solid #fff;
+    border: 0.5px solid #fff;
+    border-radius: 7.5px;
     padding: 15px;
     margin-bottom: 30px;
 }
@@ -578,7 +583,7 @@ button:focus {
 }
 
 .service-area:before {
-    background-color: #ffc900;
+    background-color: #ff0000;
     position: absolute;
     content: '';
     width: 100%;
@@ -594,7 +599,7 @@ button:focus {
 .single-service {
     background-color: #fff;
     padding: 15px;
-    border: 1px solid #ffc900;
+    border: 1px solid #ff0000;
     -webkit-transition: .3s;
     transition: .3s;
     margin-bottom: 30px;
@@ -615,7 +620,7 @@ button:focus {
     content: '';
     width: 100%;
     height: 5px;
-    background-color: #000;
+    background-color: #ff0000;
     z-index: -1;
     -webkit-transition: .3s;
     transition: .3s;
@@ -632,7 +637,7 @@ button:focus {
 
 .service-icon {
     font-size: 50px;
-    color: #ffc900;
+    color: #f00;
 }
 
 
@@ -650,7 +655,8 @@ button:focus {
 
 .single-why-me:hover .why-me-icon {
     background-color: #000;
-    color: #ffc900;
+    color: #fff;
+    border: 1px solid #000;
 }
 
 .why-me-right .why-me-icon,
@@ -660,13 +666,13 @@ button:focus {
     font-size: 40px;
     width: 100px;
     height: 100%;
-    border: 1px solid #000;
+    border: 1px solid #f00;
     text-align: center;
     line-height: 1;
     right: 0;
     bottom: 0;
     display: inline-block;
-    background-color: #ffc900;
+    background-color: #ff0000;
     -webkit-transition: .3s;
     transition: .3s;
 }
@@ -707,7 +713,8 @@ button:focus {
 .work-list ul li {
     display: inline-block;
     padding: 5px 10px;
-    border: 1px solid;
+    border: 0.5px solid;
+    border-radius: 7.5px;
     -webkit-transition: .3s;
     transition: .3s;
     cursor: pointer;
@@ -715,9 +722,9 @@ button:focus {
 
 .work-list ul li.filter.active,
 .work-list ul li:hover {
-    color: #000;
-    background-color: #ffc900;
-    border-color: #ffc900;
+    color: #fff;
+    background-color: #f00;
+    border-color: #ff0000;
 }
 
 .row.portfolio .col-lg-4 {
@@ -820,7 +827,7 @@ button:focus {
     width: 100%;
     height: 100%;
     content: '';
-    background-color: #000;
+    background-color: #ff0000;
     z-index: -1;
 }
 
@@ -837,7 +844,7 @@ button:focus {
 ::::::::::::::::::::::::::::::::::::*/
 
 .section-title.faq-title h2:after {
-    background-color: #000;
+    background-color: #ff0000;
 }
 
 .section-title.faq-title h2:before {
@@ -856,7 +863,7 @@ button:focus {
 .single-faq h4 {
     color: #fff;
     padding: 5px 15px;
-    background-color: #333;
+    background-color: #fa0375;
     cursor: pointer;
     font-weight: 400;
     font-size: 24px;
@@ -877,14 +884,14 @@ button:focus {
     right: 0;
     top: 0;
     color: #fff;
-    background-color: #000;
+    background-color: #f00;
     width: 60px;
     height: 100%;
     line-height: 200%;
 }
 
 .faq-body {
-    background: #3e3e3e;
+    background: #ff0000;
     color: #fff;
     padding: 15px;
 }
@@ -930,14 +937,15 @@ h4.blog-title a {
 }
 
 .single-blog .button {
-    color: #333;
+    color: #fff;
     padding: 5px 15px;
     margin-top: 15px;
 }
 
 .single-blog .button:hover {
-    background-color: #ffc900;
-    border-color: #ffc900;
+    background-color: #fff;
+    color: #f00;
+    border-color: #ff0000;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -956,7 +964,7 @@ h4.blog-title a {
     height: 100%;
     left: 0;
     bottom: 0;
-    background-color: #000000;
+    background-color: #f00;
     z-index: -1;
     opacity: .6;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=60)";
@@ -976,14 +984,15 @@ h4.blog-title a {
 }
 
 .button.blog-btn {
-    color: #000;
+    color: #fff;
     margin-bottom: 30px;
     margin-top: 30px;
 }
 
 .button.blog-btn:hover {
-    background-color: #ffc900;
-    border-color: #ffc900;
+    background-color: #fff;
+    color: #f00;
+    border-color: #f00;
 }
 
 /*::::::::::::::::::::::::::::::::::::
@@ -1052,7 +1061,7 @@ input:focus {
 }
 
 .sidebar-widget ol li a:hover {
-    color: #ffc900;
+    color: #f00;
 }
 
 .sidebar-widget ol.recent-post li {
@@ -1072,7 +1081,7 @@ input:focus {
 }
 
 .sidebar-widget ol.recent-post li a:hover {
-    color: #ffc900;
+    color: #f00;
 }
 
 .blog-content {
@@ -1109,8 +1118,8 @@ input:focus {
 }
 
 .sidebar-widget ol.tags li a:hover {
-    color: #000;
-    background-color: #ffc900;
+    color: #fff;
+    background-color: #f00;
 }
 
 
@@ -1389,143 +1398,8 @@ p.comment-date {
 }
 
 
-/*::::::::::::::::::::::::::::::::::::
-   Team Section
-::::::::::::::::::::::::::::::::::::*/
-
-.single-team {
-    border-bottom: 10px solid #ffc900;
-    box-shadow: 0 0 30px #ddd;
-    margin-bottom: 30px;
-}
-
-.team-thumb {
-    position: relative;
-    width: 100%;
-    height: 290px;
-    background-position: center top;
-    background-size: cover;
-    z-index: 1;
-}
-
-.team-thumb:after {
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: .8;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=80)";
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-
-.single-team:hover .team-thumb:after {
-    background-color: #ffc900;
-}
-
-.team-thumb:after,
-.team-thumb:before {
-    position: absolute;
-    content: '';
-    z-index: -1;
-}
-
-.team-thumb:before {
-    width: 100%;
-    height: 100%;
-    border: 1px solid #fff;
-    top: 0;
-    left: 0;
-    z-index: 1;
-    -webkit-transition: .3s;
-    transition: .3s;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-}
-
-.single-team:hover .team-thumb:before {
-    width: 90%;
-    height: 90%;
-    top: 5%;
-    left: 5%;
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-}
-
-.team-content {
-    padding: 15px 0;
-    text-align: center;
-}
-
-.team-content h4 {
-    text-transform: uppercase;
-    font-size: 20px;
-    letter-spacing: 1px;
-    line-height: 1;
-}
-
-.team-content span {
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-}
-
-.team-social {
-    position: absolute;
-    width: 100%;
-    text-align: center;
-    top: 50%;
-    z-index: 1;
-    -webkit-transition: .3s;
-    transition: .3s;
-    opacity: 0;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    visibility: hidden;
-}
-
-.team-social a {
-    color: #fff;
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    border: 1px solid;
-    font-size: 15px;
-    line-height: 30px;
-    -webkit-transition: .3s;
-    transition: .3s;
-}
-
-.team-social a:hover {
-    color: #000;
-
-}
-
-.single-team:hover .team-social {
-    margin-top: -15px;
-    opacity: 1;
-    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
-    visibility: visible;
-}
 
 
-/*::::::::::::::::::::::::::::::::::::
-   Call to Action Area
-::::::::::::::::::::::::::::::::::::*/
-
-.cta-button {
-    height: 100%;
-    text-align: right;
-}
-
-.cta-button .button {
-    color: #000;
-}
-
-.cta-button .button:hover {
-    color: #fff;
-    border-color: #000;
-    background-color: #000;
-}
 
 
 /*::::::::::::::::::::::::::::::::::::
@@ -1548,7 +1422,8 @@ p.comment-date {
 }
 
 .price-head h3 {
-    background-color: #ffc900;
+    background-color: #ff0000;
+    color: #fff;
     font-size: 25px;
     padding: 15px;
 }
@@ -1570,14 +1445,14 @@ p.comment-date {
 }
 
 .single-price-box .button {
-    background-color: #000;
-    border-color: #000;
+    background-color: #f00;
+    border-color: #ff0000;
     margin: 30px 0;
 }
 
 .single-price-box .button:hover {
-    background-color: #ffc900;
-    border-color: #ffc900;
+    background-color: #000;
+    border-color: #000;
 }
 
 
@@ -1648,7 +1523,7 @@ input:-webkit-autofill {
 .form-btn .button {
     margin: 0;
     border: none;
-    background-color: #000;
+    background-color: #f00;
     color: #fff;
     cursor: pointer;
     -webkit-transition: .3S;
@@ -1656,8 +1531,8 @@ input:-webkit-autofill {
 }
 
 .form-btn .button:hover {
-    color: #000;
-    background-color: #ffc900;
+    color: #fff;
+    background-color: #000;
 }
 
 .form-message {
@@ -1680,16 +1555,17 @@ input:-webkit-autofill {
 
 .footer-area {
     padding: 30px;
-    background-color: #000;
-    border-bottom: 5px solid #ffc900;
+    background-color: #ff0000;
+    border-bottom: 5px solid #fff;
 }
 
 .copyright-text a {
     color: #eee;
     -webkit-transition: .3s;
     transition: .3s;
+    text-decoration: none;
 }
 
 .copyright-text a:hover {
-    color: #ffc900;
+    color: #000;
 }
