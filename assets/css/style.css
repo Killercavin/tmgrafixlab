@@ -52,7 +52,7 @@ a {
 }
 
 a:hover {
-    color: #f00;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -85,21 +85,26 @@ img {
 
 .button {
     color: #fff;
-    background: #f00;
+    background: #000;
     display: inline-block;
     text-transform: unset;
     text-decoration: none;
-    border: 2.5px solid;
+    border: 0.5px solid;
     border-radius: 7.5px;
     padding: 10px 20px;
 }
 
 .button:hover {
-    color: #fff;
+    color: #f00;
+    background-color: #fff;
+}
+
+.button a{
+    font-weight: 500;
 }
 
 .bg-a {
-    background-color: #f00;
+    background-color: transparent;
 }
 
 .section-padding {
@@ -143,7 +148,7 @@ button:focus {
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: #fa0375;
+    background-color: #ffc900;
     z-index: 99999;
 }
 
@@ -159,7 +164,7 @@ button:focus {
 
 .cube1,
 .cube2 {
-    background-color: #f00;
+    background-color: #000;
     width: 25px;
     height: 25px;
     position: absolute;
